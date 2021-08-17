@@ -102,10 +102,10 @@
         <div id="customers" style="display: none;">
             <center><h1>CUSTOMER DETAILS</h1></center>
             <?php
-              $servername = "sql106.epizy.com";
-              $username = "epiz_29133350";
-              $password = "NayVb7UInKPNG";
-              $dbname = "epiz_29133350_banksys";
+              $servername = "servername";
+              $username = "username";
+              $password = "password";
+              $dbname = "dbname";
               $conn = new mysqli($servername, $username, $password, $dbname);
               if ($conn->connect_error) {
                 die("Connection failed: " . $conn->connect_error);
@@ -148,10 +148,10 @@
         <div id="history" style="display: none;">
             <center><h1>TRANSACTION HISTORY</h1></center>
             <?php
-              $servername = "sql106.epizy.com";
-              $username = "epiz_29133350";
-              $password = "NayVb7UInKPNG";
-              $dbname = "epiz_29133350_banksys";
+              $servername = "servername";
+              $username = "username";
+              $password = "password";
+              $dbname = "dbname";
               $conn1 = new mysqli($servername, $username, $password, $dbname);
               // Check connection
               if ($conn1->connect_error) {
