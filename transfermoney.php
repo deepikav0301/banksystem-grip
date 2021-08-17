@@ -42,10 +42,10 @@
  
 <body>
     <?php
-$servername = "sql106.epizy.com";
-$username = "epiz_29133350";
-$password = "NayVb7UInKPNG";
-$dbname = "epiz_29133350_banksys";
+$servername = "servername";
+$username = "username";
+$password = "password";
+$dbname = "dbname";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
